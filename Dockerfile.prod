@@ -1,8 +1,0 @@
-# start with a scratch
-FROM scratch
-
-# copy our static linked library
-COPY helloworld helloworld
-
-# run it!
-CMD ["./helloworld"]
