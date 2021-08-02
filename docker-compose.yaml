@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  gobuild:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rafaelglv/docker_desafio_go:build
+    container_name: docker_desafio_go_build
+    tty: true
+    
+  goprod:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    image: rafaelglv/docker_desafio_go:prod
+    container_name: docker_desafio_go_prod
+    tty: true
+
