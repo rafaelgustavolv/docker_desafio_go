@@ -1,10 +1,13 @@
-# Módulo Docker - Desafio Go
+# Docker - Image Golang
 
-1. Usei a função println do go.
-2. Tentei usar upx porém não funcionou. Mas deixei comentado.
-3. Criei o Dockerfile
-6. Criei um docker-compose.yml
-7. docker run rafaelglv/docker_desafio_go
+1. Print "Full Cycle Rocks" using println(builtin) from golang.
+2. Created Dockerfile
+3. Created docker-compose.yml
+4. docker run rafaelglv/docker_image_go
 
-Referências:
+TODO
+
+* Add upx for a smallest image possible.
+
+References:
  - https://blog.cloud66.com/how-to-create-the-smallest-possible-docker-image-for-your-golang-application/
